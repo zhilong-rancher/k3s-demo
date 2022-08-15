@@ -1,4 +1,4 @@
-namespace: default
+namespace: system-upgrade
 targetCustomizations:
 - name: app-a
   clusterSelector:
