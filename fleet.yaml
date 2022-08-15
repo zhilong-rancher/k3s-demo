@@ -6,23 +6,20 @@ targetCustomizations:
       app: a
   yaml:
     overlays:
-    # Refers to overlays/app-a folder
-    - app-a
+    - k3s-version
 
 - name: app-b
   clusterSelector:
     matchLabels:
       app: b
   yaml:
-    # Refers to overlays/app-b folders
     overlays:
-    - app-b
+    - k3s-version
 
 - name: app-c
   clusterSelector:
     matchLabels:
       app: c
   yaml:
-    # Refers to overlays/app-b folders
     overlays:
-    - app-c
+    - k3s-version
